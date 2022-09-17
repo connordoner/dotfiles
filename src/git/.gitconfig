@@ -3,3 +3,13 @@
 
 [init]
 	defaultBranch = main
+
+[user]
+	name = "Connor Gurney"
+	email = "me@connorgurney.me.uk"
+
+[includeIf "gitdir:~/Code/gurste/"]
+	path = ~/Code/connordoner/dotfiles/src/git/.gitconfig-gurste
+
+[includeIf "gitdir:~/Code/breakthroughparty/"]
+	path = ~/Code/connordoner/dotfiles/src/git/.gitconfig-breakthroughparty
