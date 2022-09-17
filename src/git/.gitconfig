@@ -7,9 +7,19 @@
 [user]
 	name = "Connor Gurney"
 	email = "me@connorgurney.me.uk"
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOVimFsO4SGxHLomKTbyByqlhqddfPLFxWgeFVJKsKw6
 
 [includeIf "gitdir:~/Code/gurste/"]
 	path = ~/Code/connordoner/dotfiles/src/git/.gitconfig-gurste
 
 [includeIf "gitdir:~/Code/breakthroughparty/"]
 	path = ~/Code/connordoner/dotfiles/src/git/.gitconfig-breakthroughparty
+
+[gpg]
+	format = ssh
+
+[gpg "ssh]
+	program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
+
+[commit]
+	gpgsign = true
