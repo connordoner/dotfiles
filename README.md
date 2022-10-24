@@ -3,6 +3,12 @@
 This repository contains version-controlled dotfiles that I use on my MacBook
 Pro at work and MacBook Air at home.
 
+## Prerequisites
+
+My public SSH key is hardcoded in files within the Git configuration. For that
+reason, make sure that you either have my SSH key set in `~/.ssh/id_ed25519` or
+fork this repository and hardcode your own.
+
 ## Installation
 
 To install the dotfiles to the current user account, run `./install.sh`.
