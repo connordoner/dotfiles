@@ -1,9 +1,12 @@
+# Current PATH
+DOTFILES_PATH=`pwd`/src
+
 # Shell
-ln -s ./src/.zshrc ~/.zshrc
+ln -s $DOTFILES_PATH/.zshrc ~/.zshrc
 
 # Git
-ln -s ./src/git/.gitignore ~/.gitignore
-ln -s ./src/git/.gitconfig ~/.gitconfig
+ln -s $DOTFILES_PATH/git/.gitignore ~/.gitignore
+ln -s $DOTFILES_PATH/git/.gitconfig ~/.gitconfig
 
 # SSH
-ln -s ./src/ssh/config ~/.ssh/config
+ln -s $DOTFILES_PATH/ssh/config ~/.ssh/config
