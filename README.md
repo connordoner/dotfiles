@@ -5,24 +5,7 @@ Pro at work and MacBook Air at home.
 
 ## Installation
 
-### Git
-
-```shell
-ln -s ~/Code/connordoner/dotfiles/src/git/.gitignore ~/.gitignore
-ln -s ~/Code/connordoner/dotfiles/src/git/.gitconfig ~/.gitconfig
-```
-
-### SSH
-
-```shell
-ln -s ~/Code/connordoner/dotfiles/src/ssh/config ~/.ssh/config
-```
-
-### Zsh
-
-```shell
-ln -s ~/Code/connordoner/dotfiles/src/.zshrc ~/.zshrc
-```
+To install the dotfiles to the current user account, run `./install.sh`.
 
 ## Feedback
 
