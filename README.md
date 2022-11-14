@@ -5,9 +5,10 @@ Pro at work and MacBook Air at home.
 
 ## Prerequisites
 
-My public SSH key is hardcoded in files within the Git configuration. For that
-reason, make sure that you either have my SSH key set in `~/.ssh/id_ed25519` or
-fork this repository and hardcode your own.
+My public SSH key is stored in my 1Password account and is used for signing my
+Git commits. For that reason, make sure to either change my public key for
+your own in [src/git/.gitconfig](./src/git/.gitconfig) or to change the
+`IdentityAgent` directive in [src/ssh/config](./src/ssh/config).
 
 ## Installation
 
